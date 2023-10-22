@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "github-pull"
+version = "0.1.0"
+description = ""
+authors = ["stiffneckjim <22213990+stiffneckjim@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "github_pull"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+python-dotenv = "^1.0.0"
+
+[tool.poetry.group.dev.dependencies]
+pylint = "^3.0.1"
+black = "^23.10.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
