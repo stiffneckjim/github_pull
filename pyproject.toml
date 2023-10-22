@@ -9,6 +9,7 @@ packages = [{include = "github_pull"}]
 [tool.poetry.dependencies]
 python = "^3.11"
 python-dotenv = "^1.0.0"
+pygithub = "^2.1.1"
 
 [tool.poetry.group.dev.dependencies]
 pylint = "^3.0.1"
